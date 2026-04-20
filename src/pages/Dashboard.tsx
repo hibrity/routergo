@@ -243,11 +243,11 @@ export default function Dashboard() {
   }, [view]);
 
   function goDriver() {
-    window.location.href = "/driver";
+    window.location.href = "/#/driver";
   }
 
   function goMap() {
-    window.location.href = "/route-mapbox";
+    window.location.href = "/#/route-mapbox";
   }
 
   // ------------------ RENDER ------------------
