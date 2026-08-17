@@ -1,17 +1,28 @@
-```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.dll
+*.so
+*.a
+*.out
+*.exe
+
 # Dependencies
 node_modules/
-
-# Build artifacts
-dist/
-build/
-*.js.map
-*.tsbuildinfo
-
-# Environment
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Editors
 .vscode/
@@ -19,35 +30,32 @@ build/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Temporary files
-*.tmp
+# System files
 .DS_Store
 Thumbs.db
 
-# Python cache (if any Python files exist in the project)
-__pycache__/
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-
-# Compiled files
-*.o
-*.obj
-*.exe
-*.dll
+.Python
 *.so
-*.a
-*.out
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
 
-# Compression
+# Compression files
 *.zip
 *.gz
 *.tar
@@ -70,16 +78,3 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Testing
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# TypeScript/JavaScript specific
-.next/
-.nuxt/
-angular/
-webpack/
-```
